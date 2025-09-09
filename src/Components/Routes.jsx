@@ -1,6 +1,18 @@
 import {BrowserRouter as Router, Route, Routes,Link} from 'react-router-dom';
 
-const RoutesComponent = () => {
+function RoutesComponent () {
+
+    function Home() {
+        return <h2>Home</h2>;
+    }
+    function About() {
+        return <h2>About</h2>;
+    }
+    function Contact() {
+        return <h2>Contact</h2>;
+    }
+    
+
     return (    
         <Router>
             <nav>

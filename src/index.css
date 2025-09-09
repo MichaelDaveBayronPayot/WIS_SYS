@@ -3,3 +3,27 @@
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+  background-color: #4CAF50;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+nav ul li{
+  cursor: pointer;
+}
+nav ul li:hover{
+  text-decoration: underline;
+}
+
+
