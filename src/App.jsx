@@ -1,8 +1,10 @@
 
+import { Navbar } from './Components/Navbar.jsx'
 import Routes from './Routes/Routes.jsx'
 
 function App() {
   return (
+    
     <Routes/>
   )
 }
