@@ -4,26 +4,66 @@
   box-sizing: border-box;
 }
 body{
-  background-color: #f0f2f5;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-nav{
-  background-color: #4CAF50;
-  padding: 1rem;
-  color: white;
+  background: white;
   text-align: center;
 }
-nav ul{
-  list-style: none;
+.header{
+  gap: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 2rem;
+  align-items: center;
+  color: black;
+  margin-top: 20px;
 }
-nav ul li{
+header h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+header img{
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #1b44ca61;
+  padding-bottom: 20px;
+}
+
+.content{ 
+  background: rgba(119, 146, 197, 0.477);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(50, 74, 196, 0.475);
+  max-width: 1500px;
+  height: 813px;
+  margin: 15px auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.content p{
+  margin-top: 200px;
+  margin-bottom: 20px;
+}
+.content input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.content button{
+  width: 35%;
+  padding: 10px;
+  background: darkblue;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
-nav ul li:hover{
-  text-decoration: underline;
+.content button:hover{
+  background: navy;   
 }
 
 

@@ -1,11 +1,12 @@
 
-import { Navbar } from './Components/Navbar.jsx'
-import Routes from './Routes/Routes.jsx'
+import LoginPage from './Components/LoginPage.jsx'
+import './index.css'
 
 function App() {
   return (
     
-    <Routes/>
+  <LoginPage/>
+  
   )
 }
 
